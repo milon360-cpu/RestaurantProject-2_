@@ -1,0 +1,309 @@
+/* COMMON CODE START HERE  */
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    /* font-family: 'Montserrat', sans-serif; */
+}
+/* COMMON CODE END HERE  */
+/* ----------------------------------------------------------------------------------- */
+/* NAV SECTION START HERE  */
+.navbar
+{
+    background-color: rgba(1, 2, 1, 0.561);
+ 
+}
+.navbar-nav a
+{
+    color: rgb(243, 242, 242);
+   font-size: 18px;  
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   transition: .6s;
+}
+.navbar-nav a:hover
+{
+ color: rgb(149, 148, 148);
+  transform: scale(1.2);
+ 
+}
+.logo
+{
+    width: 150px;
+}
+.icon
+{
+    color: white;
+    
+}
+.hedar-contant
+{
+    background-image:linear-gradient(rgba(56, 122, 92, 0.445),rgba(128, 128, 128, 0.507)),url("images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+   
+}
+.title 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-body
+{
+    margin-top: 18%;
+    color: white;
+    text-align: center;
+    font-family:Brush Script MT;
+}
+.title-body h1 
+{
+    font-size: 65px;
+}
+@media screen and (max-width:990px)
+{
+    .navbar-nav 
+    {
+        width: 75%;
+       
+        margin: 0px auto;
+        margin-right: 0px;
+      
+    }
+    .navbar-nav li 
+    {
+        text-align: center;
+        background-color: rgb(105, 105, 105);
+        margin-top: 3%;
+        border-radius: 10px;
+    }
+    .navbar-nav a 
+    {
+       color: white;
+    }
+    .navbar-nav a:hover
+    {
+        color: black;
+    }
+    .hedar-contant
+    {
+        height: 120vh;
+    }
+    .social-icon i 
+    {
+        font-size: 28px;
+    }
+    .about 
+    {
+        width: 80%;
+        margin: 0px auto;
+        margin-top: -48%!important;
+    }
+    .card
+   {
+       transition: .1s;
+       margin-top: 2%;
+   }
+   .card:hover
+   {
+     transform: scale(1)!important;
+   }
+   .separeted-roul
+   {
+       background-color: black;
+   }
+   .footer-icon-container
+   {
+       padding: 0px;
+   }
+}
+/* NAV SECTION END HERE  */
+/* --------------------------------------------------- */
+/*----------- Main SECTION START HERE  -----------*/
+   /* SOCIAL ICON AND ABOUT SECTION START HERE  */
+   .icon-about
+   {
+   }
+   .social-icon
+   {
+       display: flex;
+       flex-direction: column;
+       width: 100px;
+   
+     
+   }
+   .social-icon a 
+   {
+       display: block;
+   }
+   .social-icon i 
+   {
+       transition: .6s;
+       margin-top: 5px;
+   }
+   .social-icon i:hover
+   {
+       padding-left: 30px;
+   }
+   .about 
+   {
+       background-color: #F8F9FA;
+      margin-top: -18%;
+      padding: 5px;
+   }
+   hr
+   {
+       width: 200px;
+       color: rgb(0, 0, 0);
+       border: 3px solid rgb(32, 24, 24);
+       margin: 0px auto;
+       margin-bottom: 2%;
+       border-radius: 20px;
+       background-color: rgb(0, 0, 0)!important;
+   }
+   .about-title
+   {
+       padding: 10px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .about-title p 
+   {
+       text-align: justify;
+       color: black;
+   }
+   /* SOCIAL ICON AND ABOUT SECTION END HERE  */
+   /* FOOD ITEM SECTION START HERE  */
+   .card-heder img
+   {
+    width: 100%;
+   }
+   .card
+   {
+       transition: .4s;
+   }
+   .card:hover
+   {
+     transform: scale(1.1);
+   }
+   .button-reting
+   {
+       display: flex;
+       justify-content: space-between;
+   }
+   .button-reting button 
+   {
+        display: block;
+   }
+   .rating i
+   {
+    color: #EAD242;
+   }
+   .food-section span 
+   {
+    font-size: 25px;
+    font-weight: bold;
+     color: rgb(238, 175, 74);
+   }
+   .food-section i
+   {
+       transition: .4s;
+   }
+   .food-section i:hover
+   {
+       color: rgb(24, 156, 156);
+       transform: scale(1.2);
+   } 
+   .pizza-section span 
+   {
+    font-size: 25px;
+    font-weight: bold;
+     color: rgb(238, 175, 74);
+   }
+   /* ----------------SPECIAL ITEM ------------------ */
+   .special-item img 
+   {
+      width: 100%;
+      height: 200px;
+      
+   }
+ 
+   .special-item span 
+   {
+    font-size: 25px;
+    font-weight: bold;
+     color: rgb(238, 175, 74);
+   }
+   .special-item i
+   {
+       transition: .4s;
+   }
+   .special-item i:hover
+   {
+       color: rgb(24, 156, 156);
+       transform: scale(1.2);
+   } 
+   iframe 
+   {
+       width: 100%;
+       height:400px;
+   }
+  .address 
+  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+   /* -------------FOOTER SECTION HERE ----------------- */
+   .social-icon-footer a
+   {
+        margin: 2%;
+       
+   }
+   .social-icon-footer i
+   {
+    transition: .5s;
+   }
+   .social-icon-footer i:hover
+   {
+     transform:scale(1.2)
+   }
+   .separeted-roul
+   {
+       width: 1px;
+       height: 200px;
+       background-color: white;
+   }
+   .footer-nav a
+   {
+     text-decoration: none;
+     font-size: large;
+     color: white;
+     margin: 1%;
+     transition: .6s;
+   }
+   .footer-nav a:hover
+   {
+      color: tomato;
+   }
+   .hr-roul
+   {
+       position: relative;
+   }
+   .hr-roul::after
+   {
+       content: '';
+       display: block;
+        width: 1px;
+        position: absolute;
+        height: 100px;
+        background-color: white;
+        left: 250px;
+        top: -20px;
+   }
+   /*----------- Main SECTION END HERE  -----------*/
+   
